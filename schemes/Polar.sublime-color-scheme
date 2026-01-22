@@ -18,7 +18,7 @@
     "nord13": "#ebcb8b",
     "nord14": "#a3be8c",
     "nord15": "#b48ead",
-    "postnord1": "#9DA6AF",
+    "polar1": "#9DA6AF",
     "nord_comment": "var(nord3_bright)",
     "nord_decorator": "var(nord12)",
     "nord_error": "var(nord11)",
@@ -29,7 +29,7 @@
     "nord_meta_preprocessor": "var(nord10)",
     "nord_number": "var(nord15)",
     "nord_operator": "var(nord9)",
-    "nord_punctuation": "var(postnord1)",
+    "nord_punctuation": "var(polar1)",
     "nord_regex": "var(nord13)",
     "nord_selection": "color(var(nord2) alpha(0.8))",
     "nord_string": "var(nord14)",
@@ -611,7 +611,7 @@
     {
       "name": "[Markdown] Deleted",
       "scope": "markup.deleted",
-      "foreground": "var(nord_error)"
+      "foreground": "var(nord15)"
     },
     {
       "name": "[Markdown] Changed",
@@ -621,16 +621,17 @@
     {
       "name": "[Markdown] Quote",
       "scope": "markup.quote",
-      "foreground": "var(nord9)"
+      "foreground": "var(nord9)",
+      "font_style": "italic"
     },
     {
       "name": "[Markdown] Quote Punctuation",
       "scope": "text.html.markdown markup.quote.markdown punctuation.definition.blockquote.markdown",
-      "foreground": "var(nord9)"
+      "foreground": "color(var(nord9) alpha(0.3))"
     },
     {
       "name": "[Markdown] Raw",
-      "scope": "markup.raw.inline, markup.raw.block",
+      "scope": "text.html.markdown markup.raw.inline, text.html.markdown markup.raw.block",
       "foreground": "var(nord7)"
     },
     {

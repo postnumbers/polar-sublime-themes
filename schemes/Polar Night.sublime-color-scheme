@@ -1,4 +1,4 @@
-{"name": "Polar Dark",
+{"name": "Polar Night",
   "author": "Postnumbers",
   "variables": {
     "nord0": "#2e3440",
@@ -18,8 +18,8 @@
     "nord13": "#ebcb8b",
     "nord14": "#a3be8c",
     "nord15": "#b48ead",
-    "postnord1": "#9DA6AF",
-    "postnord2": "#191D24",
+    "polar1": "#9DA6AF",
+    "polar2": "#191D24",
     "nord_comment": "var(nord3_bright)",
     "nord_decorator": "var(nord12)",
     "nord_error": "var(nord11)",
@@ -30,7 +30,7 @@
     "nord_meta_preprocessor": "var(nord10)",
     "nord_number": "var(nord15)",
     "nord_operator": "var(nord9)",
-    "nord_punctuation": "var(postnord1)",
+    "nord_punctuation": "var(polar1)",
     "nord_regex": "var(nord13)",
     "nord_selection": "color(var(nord2) alpha(0.8))",
     "nord_string": "var(nord14)",
@@ -44,18 +44,18 @@
   "globals": {
     "accent": "var(nord8)",
     "active_guide": "var(nord_indent_guide_active)",
-    "background": "var(postnord2)",
+    "background": "var(polar2)",
     "brackets_options": "foreground bold",
     "brackets_foreground": "var(nord_decorator)",
     "bracket_contents_options": "foreground bold",
     "bracket_contents_foreground": "var(nord_decorator)",
     "caret": "var(nord_text)",
-    "find_highlight_foreground": "var(postnord2)",
+    "find_highlight_foreground": "var(polar2)",
     "find_highlight": "var(nord8)",
     "foreground": "var(nord_text)",
     "guide": "var(nord_indent_guide)",
     "gutter_foreground": "var(nord3)",
-    "gutter": "var(postnord2)",
+    "gutter": "var(polar2)",
     "highlight": "var(nord8)",
     "inactive_selection": "var(nord_selection)",
     "invisibles": "var(nord3)",
@@ -68,7 +68,7 @@
     "selection_border": "var(nord_selection)",
     "selection": "var(nord_selection)",
     "shadow_width": "8",
-    "shadow": "var(postnord2)",
+    "shadow": "var(polar2)",
     "stack_guide": "var(nord_indent_guide)",
     "tags_foreground": "var(nord_decorator)",
     "tags_options": "foreground bold"
@@ -612,7 +612,7 @@
     {
       "name": "[Markdown] Deleted",
       "scope": "markup.deleted",
-      "foreground": "var(nord_error)"
+      "foreground": "var(nord15)"
     },
     {
       "name": "[Markdown] Changed",
@@ -696,14 +696,14 @@
       "name": "[Markdown] Highlighted Text",
       "scope": "markup.highlight.markdown",
       "background": "var(nord14)",
-      "foreground": "var(postnord2)",
+      "foreground": "var(polar2)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Highlight Punctuation",
       "scope": "punctuation.definition.highlight",
       "foreground": "color(var(nord14) alpha(0.3))",
-      "background": "var(postnord2)"
+      "background": "var(polar2)"
     },
     {
       "name": "[Markdown] Tag Punctuation",
