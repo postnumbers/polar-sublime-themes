@@ -19,9 +19,11 @@
     "nord14": "#a3be8c",
     "nord15": "#b48ead",
     "polar1": "#9DA6AF",
-    "polar2": "#191D24",
+    "polar2": "#191d24",
+    "polar3": "#262B36",
     "nord_comment": "var(nord3_bright)",
     "nord_decorator": "var(nord12)",
+    "nord_emphasis": "var(nord7)",
     "nord_error": "var(nord11)",
     "nord_function": "var(nord8)",
     "nord_indent_guide_active": "var(nord3)",
@@ -513,7 +515,8 @@
     {
       "name": "[Markdown] Heading",
       "scope": "markup.heading",
-      "foreground": "var(nord7)"
+      "foreground": "var(nord7)",
+      "font_style": "bold"
     },
     {
       "name": "[Markdown] Heading Definition",
@@ -534,7 +537,8 @@
     {
       "name": "[Markdown] Heading 2",
       "scope": "markup.heading.2",
-      "foreground": "var(nord14)"
+      "foreground": "var(nord14)",
+      "font_style": "bold"
     },
     {
       "name": "[Markdown] Heading 2 Definition",
@@ -544,7 +548,8 @@
     {
       "name": "[Markdown] Heading 3+",
       "scope": "markup.heading.3, markup.heading.4, markup.heading.5, markup.heading.6",
-      "foreground": "var(nord8)"
+      "foreground": "var(nord8)",
+      "font_style": "bold"
     },
     {
       "name": "[Markdown] Heading 3+ Definition",
@@ -564,28 +569,50 @@
     {
       "name": "[Markdown] Bold",
       "scope": "markup.bold",
+      "foreground": "var(nord_emphasis)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Italic",
       "scope": "markup.italic",
+      "foreground": "var(nord_emphasis)",
       "font_style": "italic"
     },
     {
       "name": "[Markdown] Bold/Italic",
       "scope": "markup.bold_italic, markup.bold & markup.italic",
+      "foreground": "var(nord_emphasis)",
       "font_style": "bold italic"
-    },
-    {
-      "name": "[Markdown] Emphasis Punctuation",
-      "scope": "punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown, punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown",
-      "foreground": "color(var(nord_text) alpha(0.3))"
     },
     {
       "name": "[Markdown] Underline",
       "scope": "markup.underline",
-      "foreground": "var(nord_text)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "underline"
+    },
+    {
+      "name": "[Markdown] Bold/Underline",
+      "scope": "markup.underline markup.bold, markup.bold markup.underline",
+      "foreground": "var(nord_emphasis)",
+      "font_style": "bold underline"
+    },
+    {
+      "name": "[Markdown] Italic/Underline",
+      "scope": "markup.underline markup.italic, markup.italic markup.underline",
+      "foreground": "var(nord_emphasis)",
+      "font_style": "italic underline"
+    },
+    {
+      "name": "[Markdown] Bold/Italic/Underline",
+      "scope": "markup.bold markup.italic markup.underline, markup.italic markup.bold markup.underline, markup.bold markup.underline markup.italic, markup.italic markup.underline markup.bold, markup.underline markup.bold markup.italic, markup.underline markup.italic markup.bold",
+      "foreground": "var(nord_emphasis)",
+      "font_style": "bold italic underline"
+    },
+    {
+      "name": "[Markdown] Emphasis Punctuation",
+      //"scope": "punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown, punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown",
+      "scope": "punctuation.definition.bold, punctuation.definition.italic, punctuation.definition.underline",
+      "foreground": "color(var(nord_emphasis) alpha(0.3))"
     },
     {
       "name": "[Markdown] Strikethrough",
@@ -648,12 +675,12 @@
     {
       "name": "[Markdown] Code Block Language",
       "scope": "constant.other.language-name",
-      "foreground": "var(nord_comment)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[Markdown] Code Block Text",
       "scope": "markup.raw.block, markup.raw.code-fence, meta.code-fence.body",
-      "background": "var(nord0)",
+      "background": "var(polar3)",
       "foreground": "var(nord_text)"
     },
     {
@@ -664,7 +691,7 @@
     {
       "name": "[Markdown] Inline Code Text",
       "scope": "markup.raw.inline - punctuation.definition.raw",
-      "background": "var(nord0)",
+      "background": "var(polar3)",
       "foreground": "var(nord_text)"
     },
     {

@@ -1,408 +1,410 @@
-{"name": "Polar Light",
+{"name": "Polar Night",
   "author": "Postnumbers",
   "variables": {
-    "polar0": "#FFFFFF", //
-    "polar1": "#eceff4", //
-    "polar2": "#ABB3BA", //
-    "polar3": "#8F99A3", //
-    "polar3_bright": "#8893AA", //
-    "polar4": "#2e3440", //
-    "polar5": "#e5e9f0", //
-    "polar6": "#eceff4", //
-    "polar7": "#3FA6A4", //
-    "polar8": "#1493B8", //
-    "polar9": "#2966A3", //
-    "polar10": "#0F468A", //
-    "polar11": "#CC3342", //
-    "polar12": "#EB8B47", //
-    "polar13": "#B78215", //
-    "polar14": "#629438", //
-    "polar15": "#B87AAC", //
-    "polar16": "#818C98", //
-    "polar17": "#A3BE8C", //
-    "polar_comment": "var(polar3_bright)",
-    "polar_decorator": "var(polar12)",
-    "polar_emphasis": "var(polar9)",
-    "polar_error": "var(polar11)",
-    "polar_function": "var(polar8)",
-    "polar_indent_guide_active": "var(polar3)",
-    "polar_indent_guide": "color(var(polar2) alpha(0.7))",
-    "polar_keyword": "var(polar9)",
-    "polar_meta_preprocessor": "var(polar10)",
-    "polar_number": "var(polar15)",
-    "polar_operator": "var(polar9)",
-    "polar_punctuation": "var(polar16)",
-    "polar_regex": "var(polar13)",
-    "polar_selection": "color(var(polar2) alpha(0.8))",
-    "polar_string": "var(polar14)",
-    "polar_tag": "var(polar9)",
-    "polar_text": "var(polar4)",
-    "polar_type_primitive": "var(polar9)",
-    "polar_type": "var(polar7)",
-    "polar_variable": "var(polar4)",
-    "polar_warning": "var(polar13)"
+    "nord0": "#2e3440",
+    "nord1": "#3b4252",
+    "nord2": "#434c5e",
+    "nord3": "#4c566a",
+    "nord3_bright": "#616e88",
+    "nord4": "#d8dee9",
+    "nord5": "#e5e9f0",
+    "nord6": "#eceff4",
+    "nord7": "#8fbcbb",
+    "nord8": "#88c0d0",
+    "nord9": "#81a1c1",
+    "nord10": "#5e81ac",
+    "nord11": "#bf616a",
+    "nord12": "#d08770",
+    "nord13": "#ebcb8b",
+    "nord14": "#a3be8c",
+    "nord15": "#b48ead",
+    "polar1": "#9DA6AF",
+    "polar2": "#191d24",
+    "polar3": "#262B36",
+    "polar4": "#000000",
+    "nord_comment": "var(nord3_bright)",
+    "nord_decorator": "var(nord12)",
+    "nord_emphasis": "var(nord7)",
+    "nord_error": "var(nord11)",
+    "nord_function": "var(nord8)",
+    "nord_indent_guide_active": "var(nord3)",
+    "nord_indent_guide": "color(var(nord2) alpha(0.7))",
+    "nord_keyword": "var(nord9)",
+    "nord_meta_preprocessor": "var(nord10)",
+    "nord_number": "var(nord15)",
+    "nord_operator": "var(nord9)",
+    "nord_punctuation": "var(polar1)",
+    "nord_regex": "var(nord13)",
+    "nord_selection": "color(var(nord2) alpha(0.8))",
+    "nord_string": "var(nord14)",
+    "nord_tag": "var(nord9)",
+    "nord_text": "var(nord4)",
+    "nord_type_primitive": "var(nord9)",
+    "nord_type": "var(nord7)",
+    "nord_variable": "var(nord4)",
+    "nord_warning": "var(nord13)"
   },
   "globals": {
-    "accent": "var(polar8)",
-    "active_guide": "var(polar_indent_guide_active)",
-    "background": "var(polar0)",
+    "accent": "var(nord8)",
+    "active_guide": "var(nord_indent_guide_active)",
+    "background": "var(polar4)",
     "brackets_options": "foreground bold",
-    "brackets_foreground": "var(polar_decorator)",
+    "brackets_foreground": "var(nord_decorator)",
     "bracket_contents_options": "foreground bold",
-    "bracket_contents_foreground": "var(polar_decorator)",
-    "caret": "var(polar8)",
-    "find_highlight_foreground": "var(polar0)",
-    "find_highlight": "var(polar8)",
-    "foreground": "var(polar_text)",
-    "guide": "var(polar_indent_guide)",
-    "gutter_foreground": "var(polar3)",
-    "gutter": "var(polar0)",
-    "highlight": "var(polar8)",
-    "inactive_selection": "var(polar_selection)",
-    "invisibles": "var(polar3)",
-    "line_diff_added": "var(polar14)",
-    "line_diff_deleted": "var(polar11)",
-    "line_diff_modified": "var(polar13)",
-    "line_highlight": "var(polar16)",
-    "minimap_border": "color(var(polar2) alpha(0.32))",
-    "misspelling": "var(polar11)",
-    "selection_border": "var(polar_selection)",
-    "selection": "var(polar_selection)",
+    "bracket_contents_foreground": "var(nord_decorator)",
+    "caret": "var(nord8)",
+    "find_highlight_foreground": "var(polar4)",
+    "find_highlight": "var(nord8)",
+    "foreground": "var(nord_text)",
+    "guide": "var(nord_indent_guide)",
+    "gutter_foreground": "var(nord3)",
+    "gutter": "var(polar4)",
+    "highlight": "var(nord8)",
+    "inactive_selection": "var(nord_selection)",
+    "invisibles": "var(nord3)",
+    "line_diff_added": "var(nord14)",
+    "line_diff_deleted": "var(nord11)",
+    "line_diff_modified": "var(nord13)",
+    "line_highlight": "var(nord1)",
+    "minimap_border": "color(var(nord2) alpha(0.32))",
+    "misspelling": "var(nord11)",
+    "selection_border": "var(nord_selection)",
+    "selection": "var(nord_selection)",
     "shadow_width": "8",
-    "shadow": "var(polar0)",
-    "stack_guide": "var(polar_indent_guide)",
-    "tags_foreground": "var(polar_decorator)",
+    "shadow": "var(polar4)",
+    "stack_guide": "var(nord_indent_guide)",
+    "tags_foreground": "var(nord_decorator)",
     "tags_options": "foreground bold"
   },
   "rules": [
     {
       "name": "[Comment] Comment",
       "scope": "comment, punctuation.definition.comment",
-      "foreground": "var(polar3_bright)"
+      "foreground": "var(nord3_bright)"
     },
     {
       "name": "[Constants] BuiltIn",
       "scope": "constant.language",
-      "foreground": "var(polar_number)"
+      "foreground": "var(nord_number)"
     },
     {
       "name": "[Constants] Escape",
       "scope": "constant.character.escape",
-      "foreground": "var(polar_regex)"
+      "foreground": "var(nord_regex)"
     },
     {
       "name": "[Constants] Numeric",
       "scope": "constant.numeric",
-      "foreground": "var(polar_number)"
+      "foreground": "var(nord_number)"
     },
     {
       "name": "[Constants] Other",
       "scope": "constant.other",
-      "foreground": "var(polar_variable)"
+      "foreground": "var(nord_variable)"
     },
     {
       "name": "[Constants] Placeholder",
       "scope": "constant.other.placeholder",
-      "foreground": "var(polar_regex)"
+      "foreground": "var(nord_regex)"
     },
     {
       "name": "[Entity] Class",
       "scope": "entity.name.class",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Entity] Enum",
       "scope": "entity.name.enum",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Entity] Interface",
       "scope": "entity.name.interface",
-      "foreground": "var(polar_type)",
+      "foreground": "var(nord_type)",
       "font_style": "bold"
     },
     {
       "name": "[Entity] Struct",
       "scope": "entity.name.struct",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Entity] Traits",
       "scope": "entity.name.trait",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Entity] Type",
       "scope": "entity.name.type",
-      "foreground": "var(polar_type_primitive)"
+      "foreground": "var(nord_type_primitive)"
     },
     {
       "name": "[Entity] Unions",
       "scope": "entity.name.union",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Entity] Inherited Class/Interface/Trait",
       "scope": "entity.other.inherited-class",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Entity] Function",
       "scope": "entity.name.function",
-      "foreground": "var(polar_function)"
+      "foreground": "var(nord_function)"
     },
     {
       "name": "[Entity] Constructor",
       "scope": "entity.name.function.constructor",
-      "foreground": "var(polar_function)"
+      "foreground": "var(nord_function)"
     },
     {
       "name": "[Entity] Destructor",
       "scope": "entity.name.function.destructor",
-      "foreground": "var(polar_function)"
+      "foreground": "var(nord_function)"
     },
     {
       "name": "[Entity] Namespace",
       "scope": "entity.name.namespace",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Entity] Constant",
       "scope": "entity.name.constant",
-      "foreground": "var(polar_type_primitive)"
+      "foreground": "var(nord_type_primitive)"
     },
     {
       "name": "[Entity] Label/Goto",
       "scope": "entity.name.label",
-      "foreground": "var(polar_meta_preprocessor)"
+      "foreground": "var(nord_meta_preprocessor)"
     },
     {
       "name": "[Entity] Section",
       "scope": "entity.name.section - markup",
-      "foreground": "var(polar8)"
+      "foreground": "var(nord8)"
     },
     {
       "name": "[Entity] Tag",
       "scope": "entity.name.tag",
-      "foreground": "var(polar_tag)"
+      "foreground": "var(nord_tag)"
     },
     {
       "name": "[Entity] Attribute Name",
       "scope": "entity.other.attribute-name",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Invalid] Illegal",
       "scope": "invalid.illegal",
-      "foreground": "var(polar4)",
-      "background": "var(polar_error)"
+      "foreground": "var(nord4)",
+      "background": "var(nord_error)"
     },
     {
       "name": "[Invalid] Deprecated",
       "scope": "invalid.deprecated",
-      "foreground": "var(polar4)",
-      "background": "var(polar_warning)"
+      "foreground": "var(nord4)",
+      "background": "var(nord_warning)"
     },
     {
       "name": "[Keyword] Control",
       "scope": "keyword.control",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Keyword] Control Conditional",
       "scope": "keyword.control.conditional",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Keyword] Control Import",
       "scope": "keyword.control.import",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Keyword] Punctuation Definition",
       "scope": "punctuation.definition.keyword",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Keyword] Other",
       "scope": "keyword.other",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Keyword] Operator",
       "scope": "keyword.operator, keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.bitwise, keyword.operator.logical, keyword.operator.word",
-      "foreground": "var(polar_operator)"
+      "foreground": "var(nord_operator)"
     },
     {
       "name": "[Punctuation] Punctuation",
       "scope": "punctuation - punctuation.section",
-      "foreground": "var(polar_punctuation)"
+      "foreground": "var(nord_punctuation)"
     },
     {
       "name": "[Punctuation] Bracket, Brace, Parenthesis",
       "scope": "punctuation.section",
-      "foreground": "var(polar8)"
+      "foreground": "var(nord8)"
     },
     {
       "name": "[Punctuation] Separator Continuation/Accessor",
       "scope": "punctuation.separator.continuation, punctuation.accessor",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Punctuation] Definition Tag",
       "scope": "punctuation.definition.tag",
-      "foreground": "var(polar_tag)"
+      "foreground": "var(nord_tag)"
     },
     {
       "name": "[Storage] Type",
       "scope": "storage.type, storage.modifier",
-      "foreground": "var(polar_type_primitive)"
+      "foreground": "var(nord_type_primitive)"
     },
     {
       "name": "[String] Quoted/Unquoted",
       "scope": "string.quoted.single, string.quoted.double, string.quoted.triple, string.quoted.other, string.unquoted",
-      "foreground": "var(polar_string)"
+      "foreground": "var(nord_string)"
     },
     {
       "name": "[String] Punctuation Definition",
       "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
-      "foreground": "var(polar_punctuation)"
+      "foreground": "var(nord_punctuation)"
     },
     {
       "name": "[String] RegExp",
       "scope": "string.regexp",
-      "foreground": "var(polar_regex)"
+      "foreground": "var(nord_regex)"
     },
     {
       "name": "[Support] Constant",
       "scope": "support.constant",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Support] Function",
       "scope": "support.function",
-      "foreground": "var(polar_function)"
+      "foreground": "var(nord_function)"
     },
     {
       "name": "[Support] Module",
       "scope": "support.module",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Support] Type",
       "scope": "support.type",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Support] Class",
       "scope": "support.class",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Text] HTML/XML",
       "scope": "text.html.basic, text.xml",
-      "foreground": "var(polar_text)"
+      "foreground": "var(nord_text)"
     },
     {
       "name": "[Variable] Other/ReadWrite",
       "scope": "variable.other, variable.other.readwrite",
-      "foreground": "var(polar_variable)"
+      "foreground": "var(nord_variable)"
     },
     {
       "name": "[Variable] Punctuation Definition",
       "scope": "punctuation.definition.variable",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Variable] Constant",
       "scope": "variable.other.constant",
-      "foreground": "var(polar_type_primitive)"
+      "foreground": "var(nord_type_primitive)"
     },
     {
       "name": "[Variable] Language",
       "scope": "variable.language",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Variable] Parameter",
       "scope": "variable.parameter",
-      "foreground": "var(polar_variable)"
+      "foreground": "var(nord_variable)"
     },
     {
       "name": "[Variable] Other Member",
       "scope": "variable.other.member",
-      "foreground": "var(polar_variable)"
+      "foreground": "var(nord_variable)"
     },
     {
       "name": "[Variable] Function",
       "scope": "variable.function",
-      "foreground": "var(polar_function)"
+      "foreground": "var(nord_function)"
     },
     {
       "name": "[Find Results] Gutter Number",
       "scope": "constant.numeric.line-number.find-in-files",
-      "foreground": "var(polar4)"
+      "foreground": "var(nord4)"
     },
     {
       "name": "[Find Results] Gutter Number Match",
       "scope": "constant.numeric.line-number.match.find-in-files",
-      "foreground": "var(polar8)"
+      "foreground": "var(nord8)"
     },
     {
       "name": "[Find Results] Filename",
       "scope": "entity.name.filename.find-in-files",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Find Results] Text",
       "scope": "text.find-in-files",
-      "foreground": "var(polar4)"
+      "foreground": "var(nord4)"
     },
     {
       "name": "[C/C++] Preprocessor/Include",
       "scope": "source.c keyword.control.import.include.c, source.c meta.preprocessor.c keyword.control.import.c, source.c++ keyword.control.import.include.c++, source.c++ meta.preprocessor.c++ keyword.control.import.c++",
-      "foreground": "var(polar_meta_preprocessor)"
+      "foreground": "var(nord_meta_preprocessor)"
     },
     {
       "name": "[C/C++] BuiltIn Function",
       "scope": "source.c keyword.operator.word.c, source.c++ keyword.operator.word.c++",
-      "foreground": "var(polar_function)",
+      "foreground": "var(nord_function)",
       "font_style": "italic"
     },
     {
       "name": "[CSS/Sass] Property Name",
       "scope": "source.css support.type.property-name.css, source.sass support.type.property-name.sass, source.css support.type.vendor-prefix.css",
-      "foreground": "var(polar4)"
+      "foreground": "var(nord4)"
     },
     {
       "name": "[CSS/Sass] RGB Value",
       "scope": "source.css constant.other.color.rgb-value.css, source.sass constant.other.rgb-value.sass",
-      "foreground": "var(polar_number)"
+      "foreground": "var(nord_number)"
     },
     {
       "name": "[CSS] Property Value",
       "scope": "source.css support.constant.color.w3c-special-color-keyword.css, source.css support.constant.property-value.css, source.sass support.constant.property-value.sass",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[CSS] Pseudo Class",
       "scope": "source.css entity.other.pseudo-class.css",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[CSS/Sass] At-Rule",
       "scope": "source.css keyword.control.at-rule.media.css, source.css punctuation.definition.keyword.css, source.sass keyword.control.at-rule.sass",
-      "foreground": "var(polar_decorator)"
+      "foreground": "var(nord_decorator)"
     },
     {
       "name": "[CSS} Color Hashtag",
       "scope": "punctuation.definition.constant.css",
-      "foreground": "var(polar_text)"
+      "foreground": "var(nord_text)"
     },
     {
       "name": "[CSS] Color Names",
       "scope": "source.css support.constant.color.w3c-standard-color-name.css",
-      "foreground": "var(polar_type_primitive)",
+      "foreground": "var(nord_type_primitive)",
       "font_style": "italic"
     },
     {
@@ -413,22 +415,22 @@
     {
       "name": "[diff] Meta Range Context",
       "scope": "source.diff meta.diff.range.context",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[diff] Meta Header From-File",
       "scope": "source.diff meta.diff.header.from-file",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[diff] Punctuation Definition From-File",
       "scope": "source.diff punctuation.definition.from-file",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[diff] Punctuation Definition Separator",
       "scope": "source.diff punctuation.definition.separator",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Go] BuiltIn Function",
@@ -438,333 +440,334 @@
     {
       "name": "[Go] Type Primitive",
       "scope": "source.go support.type.builtin.go",
-      "foreground": "var(polar_type_primitive)"
+      "foreground": "var(nord_type_primitive)"
     },
     {
       "name": "[HTML] Entity",
       "scope": "text.html.basic constant.character.entity.html",
-      "foreground": "var(polar13)"
+      "foreground": "var(nord13)"
     },
     {
       "name": "[Java] Annotation",
       "scope": "variable.annotation.java, punctuation.definition.annotation.java",
-      "foreground": "var(polar_decorator)"
+      "foreground": "var(nord_decorator)"
     },
     {
       "name": "[Java] Punctuation",
       "scope": "punctuation.accessor.dot.java",
-      "foreground": "var(polar_punctuation)"
+      "foreground": "var(nord_punctuation)"
     },
     {
       "name": "[Java] Package",
       "scope": "support.other.package.java",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Java] JavaDoc Comment Block Documentation HTML Entities",
       "scope": "source.java comment.block.documentation.javadoc punctuation.definition.entity.html",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[Java] Constant",
       "scope": "source.java entity.name.constant",
-      "foreground": "var(polar_variable)"
+      "foreground": "var(nord_variable)"
     },
     {
       "name": "[Java] JavaDoc Tags",
       "scope": "source.java keyword.other.documentation, source.java comment.block.documentation.javadoc punctuation.definition.keyword.javadoc",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Java] Generic",
       "scope": "source.java variable.parameter.type.java",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Java] Interface",
       "scope": "source.java entity.other.inherited-class.java",
-      "foreground": "var(polar_type)",
+      "foreground": "var(nord_type)",
       "font_style": "bold"
     },
     {
       "name": "[Java] Implements Keyword",
       "scope": "source.java keyword.declaration.implements.java",
-      "foreground": "var(polar_keyword)"
+      "foreground": "var(nord_keyword)"
     },
     {
       "name": "[JSON] Key",
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.key.json string.quoted.double.json, source.json.sublime meta.structure.dictionary.json meta.structure.dictionary.key.json string.quoted.double.json",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[JSON] Quote Punctuation",
       "scope": "source.json meta.structure.dictionary.json punctuation.definition.string.begin.json, source.json meta.structure.dictionary.json punctuation.definition.string.end.json, source.json.sublime meta.structure.dictionary.json punctuation.definition.string.begin.json, source.json.sublime meta.structure.dictionary.json punctuation.definition.string.end.json",
-      "foreground": "var(polar_punctuation)"
+      "foreground": "var(nord_punctuation)"
     },
     {
       "name": "[JSON] Quote Punctuation",
       "scope": "source.json meta.structure.dictionary.json punctuation.definition.string.begin.json, source.json meta.structure.dictionary.json punctuation.definition.string.end.json, source.json.sublime meta.structure.dictionary.json punctuation.definition.string.begin.json, source.json.sublime meta.structure.dictionary.json punctuation.definition.string.end.json",
-      "foreground": "var(polar_punctuation)"
+      "foreground": "var(nord_punctuation)"
     },
     {
       "name": "[JSON/YAML] Key",
       "scope": "meta.mapping.key string.unquoted, meta.mapping.key string.quoted.double, meta.mapping.key string.quoted.single",
-      "foreground": "var(polar9)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[Markdown] Heading",
       "scope": "markup.heading",
-      "foreground": "var(polar7)",
+      "foreground": "var(nord7)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Heading Definition",
       "scope": "punctuation.definition.heading",
-      "foreground": "color(var(polar7) alpha(0.3))"
+      "foreground": "color(var(nord7) alpha(0.3))"
     },
     {
       "name": "[Markdown] Heading 1",
       "scope": "markup.heading.1",
-      "foreground": "var(polar7)",
+      "foreground": "var(nord7)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Heading 1 Definition",
       "scope": "markup.heading.1.markdown punctuation.definition.heading",
-      "foreground": "color(var(polar7) alpha(0.3))"
+      "foreground": "color(var(nord7) alpha(0.3))"
     },
     {
       "name": "[Markdown] Heading 2",
       "scope": "markup.heading.2",
-      "foreground": "var(polar14)",
+      "foreground": "var(nord14)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Heading 2 Definition",
       "scope": "markup.heading.2.markdown punctuation.definition.heading",
-      "foreground": "color(var(polar14) alpha(0.3))"
+      "foreground": "color(var(nord14) alpha(0.3))"
     },
     {
       "name": "[Markdown] Heading 3+",
       "scope": "markup.heading.3, markup.heading.4, markup.heading.5, markup.heading.6",
-      "foreground": "var(polar8)",
+      "foreground": "var(nord8)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Heading 3+ Definition",
       "scope": "markup.heading.3.markdown punctuation.definition.heading, markup.heading.4.markdown punctuation.definition.heading,markup.heading.5.markdown punctuation.definition.heading, markup.heading.6.markdown punctuation.definition.heading",
-      "foreground": "color(var(polar8) alpha(0.3))"
+      "foreground": "color(var(nord8) alpha(0.3))"
     },
     {
       "name": "[Markdown] List",
       "scope": "markup.list.unnumbered, markup.list.numbered",
-      "foreground": "var(polar4)"
+      "foreground": "var(nord4)"
     },
     {
       "name": "[Markdown] List Bullet",
       "scope": "text.html.markdown punctuation.definition.list_item.markdown, text.html.markdown markup.list.numbered.bullet.markdown",
-      "foreground": "var(polar9)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[Markdown] Bold",
       "scope": "markup.bold",
-      "foreground": "var(polar_emphasis)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Italic",
       "scope": "markup.italic",
-      "foreground": "var(polar_emphasis)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "italic"
     },
     {
       "name": "[Markdown] Bold/Italic",
       "scope": "markup.bold_italic, markup.bold & markup.italic",
-      "foreground": "var(polar_emphasis)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "bold italic"
     },
     {
       "name": "[Markdown] Underline",
       "scope": "markup.underline",
-      "foreground": "var(polar_emphasis)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "underline"
     },
     {
       "name": "[Markdown] Bold/Underline",
       "scope": "markup.underline markup.bold, markup.bold markup.underline",
-      "foreground": "var(polar_emphasis)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "bold underline"
     },
     {
       "name": "[Markdown] Italic/Underline",
       "scope": "markup.underline markup.italic, markup.italic markup.underline",
-      "foreground": "var(polar_emphasis)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "italic underline"
     },
     {
       "name": "[Markdown] Bold/Italic/Underline",
       "scope": "markup.bold markup.italic markup.underline, markup.italic markup.bold markup.underline, markup.bold markup.underline markup.italic, markup.italic markup.underline markup.bold, markup.underline markup.bold markup.italic, markup.underline markup.italic markup.bold",
-      "foreground": "var(polar_emphasis)",
+      "foreground": "var(nord_emphasis)",
       "font_style": "bold italic underline"
     },
     {
       "name": "[Markdown] Emphasis Punctuation",
       //"scope": "punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown, punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown",
       "scope": "punctuation.definition.bold, punctuation.definition.italic, punctuation.definition.underline",
-      "foreground": "color(var(polar_emphasis) alpha(0.3))"
+      "foreground": "color(var(nord_emphasis) alpha(0.3))"
     },
     {
       "name": "[Markdown] Strikethrough",
       "scope": "markup.strikethrough, punctuation.definition.strikethrough",
-      "foreground": "var(polar3_bright)"
+      "foreground": "var(nord3_bright)"
     },
     {
       "name": "[Markdown] Checkbox Punctuation",
       "scope": "punctuation.definition.checkbox",
-      "foreground": "var(polar9)",
+      "foreground": "var(nord9)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Checkbox Mark",
       "scope": "markup.checkbox.mark",
-      "foreground": "var(polar8)",
+      "foreground": "var(nord8)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Inserted",
       "scope": "markup.inserted",
-      "foreground": "var(polar14)"
+      "foreground": "var(nord14)"
     },
     {
       "name": "[Markdown] Deleted",
       "scope": "markup.deleted",
-      "foreground": "var(polar15)"
+      "foreground": "var(nord15)"
     },
     {
       "name": "[Markdown] Changed",
       "scope": "markup.changed",
-      "foreground": "var(polar_warning)"
+      "foreground": "var(nord_warning)"
     },
     {
       "name": "[Markdown] Quote",
       "scope": "markup.quote",
-      "foreground": "var(polar9)",
+      "foreground": "var(nord9)",
       "font_style": "italic"
     },
     {
       "name": "[Markdown] Quote Punctuation",
       "scope": "text.html.markdown markup.quote.markdown punctuation.definition.blockquote.markdown",
-      "foreground": "color(var(polar9) alpha(0.3))"
+      "foreground": "color(var(nord9) alpha(0.3))"
     },
     {
       "name": "[Markdown] Raw",
       "scope": "markup.raw.inline, markup.raw.block",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Markdown] Other",
       "scope": "markup.other",
-      "background": "var(polar_text)"
+      "background": "var(nord_text)"
     },
     {
       "name": "[Markdown] Fenced Code Block",
       "scope": "text.html.markdown punctuation.definition.raw.code-fence.begin.markdown, text.html.markdown punctuation.definition.raw.code-fence.end.markdown, text.html.markdown markup.raw.code-fence.markdown constant.other.language-name.markdown",
-      "foreground": "var(polar_comment)"
+      "foreground": "var(nord_comment)"
     },
     {
       "name": "[Markdown] Code Block Language",
       "scope": "constant.other.language-name",
-      "foreground": "var(polar9)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[Markdown] Code Block Text",
       "scope": "markup.raw.block, markup.raw.code-fence, meta.code-fence.body",
-      "background": "var(polar1)",
-      "foreground": "var(polar_text)"
+      "background": "var(polar3)",
+      "foreground": "var(nord_text)"
     },
     {
       "name": "[Markdown] Inline Code Punctuation",
       "scope": "punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown",
-      "foreground": "var(polar_comment)"
+      "foreground": "var(nord_comment)"
     },
     {
       "name": "[Markdown] Inline Code Text",
       "scope": "markup.raw.inline - punctuation.definition.raw",
-      "background": "var(polar1)",
-      "foreground": "var(polar_text)"
+      "background": "var(polar3)",
+      "foreground": "var(nord_text)"
     },
     {
       "name": "[Markdown] Link Description",
       "scope": "text.html.markdown meta.link.inline.description.markdown, text.html.markdown meta.image.inline.description.markdown, text.html.markdown meta.link.reference.description.markdown, text.html.markdown constant.other.reference.link.markdown, text.html.markdown entity.name.reference.link.markdown",
-      "foreground": "var(polar8)"
+      "foreground": "var(nord8)"
     },
     {
       "name": "[Markdown] Link Punctuation",
       "scope": "text.html.markdown punctuation.definition.link.begin.markdown, text.html.markdown punctuation.definition.link.end.markdown, text.html.markdown punctuation.definition.image.begin.markdown, text.html.markdown punctuation.definition.image.end.markdown, text.html.markdown punctuation.definition.constant.begin.markdown, text.html.markdown punctuation.definition.constant.end.markdown",
-      "foreground": "var(polar9)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[Markdown] Table Punctuation",
       "scope": "text.html.markdown punctuation.separator.table-cell.markdown, text.html.markdown punctuation.section.table-header.markdown",
-      "foreground": "var(polar9)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[Markdown] Table Header",
       "scope": "text.html.markdown meta.table.header.markdown, text.html.markdown meta.table.header.markdown-gfm",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Markdown] Horizontal Line",
       "scope": "text.html.markdown punctuation.definition.thematic-break.markdown",
-      "foreground": "var(polar9)",
+      "foreground": "var(nord9)",
       "font_style": "bold"
     },
     {
       "name": "[Markdown] Highlighted Text",
       "scope": "markup.highlight.markdown",
-      "background": "var(polar17)",
-      "foreground": "var(polar_text)"
+      "background": "var(nord14)",
+      "foreground": "var(polar4)",
+      "font_style": "bold"
     },
     {
       "name": "[Markdown] Highlight Punctuation",
       "scope": "punctuation.definition.highlight",
-      "foreground": "color(var(polar14) alpha(0.3))",
-      "background": "var(polar0)"
+      "foreground": "color(var(nord14) alpha(0.3))",
+      "background": "var(polar4)"
     },
     {
       "name": "[Markdown] Tag Punctuation",
       "scope": "punctuation.definition.anchor",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Markdown] Tag Text",
       "scope": "markup.anchor",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Markdown] Link URL",
       "scope": "markup.underline.link, constant.other.reference.link",
-      "foreground": "var(polar9)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[PHP] Embedded Tag",
       "scope": "embedding.php text.html.basic punctuation.section.embedded.begin.php, embedding.php text.html.basic punctuation.section.embedded.end.php",
-      "foreground": "var(polar_meta_preprocessor)"
+      "foreground": "var(nord_meta_preprocessor)"
     },
     {
       "name": "[PHP] PHPDoc Tag",
       "scope": "embedding.php text.html.basic comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[PHP] Namespace",
       "scope": "embedding.php text.html.basic support.other.namespace.php",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[Python] Decorator",
       "scope": "source.python meta.annotation.python meta.qualified-name.python support.function.builtin.python, source.python punctuation.definition.annotation.python",
-      "foreground": "var(polar_decorator)"
+      "foreground": "var(nord_decorator)"
     },
     {
       "name": "[Python] BuiltIn Function",
@@ -774,17 +777,17 @@
     {
       "name": "[Python] Exception",
       "scope": "source.python support.type.exception.python",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Python] Type",
       "scope": "source.python support.type.python",
-      "foreground": "var(polar_type_primitive)"
+      "foreground": "var(nord_type_primitive)"
     },
     {
       "name": "[Sass] Variable",
       "scope": "source.sass variable.parameter.sass",
-      "foreground": "var(polar_variable)",
+      "foreground": "var(nord_variable)",
       "font_style": "bold"
     },
     {
@@ -800,38 +803,38 @@
     {
       "name": "[TypeScript] Inherited Class",
       "scope": "source.ts meta.class.ts entity.other.inherited-class.ts",
-      "foreground": "var(polar_type)",
+      "foreground": "var(nord_type)",
       "font_style": "bold"
     },
     {
       "name": "[TypeScript] Class/Enum",
       "scope": "source.ts entity.name.type.class.ts, source.ts entity.name.type.enum.ts",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[TypeScript] Type",
       "scope": "source.ts entity.name.type.ts",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[TypeScript] Primitive",
       "scope": "source.ts support.type.primitive.ts",
-      "foreground": "var(polar_type_primitive)"
+      "foreground": "var(nord_type_primitive)"
     },
     {
       "name": "[TypeScript] Decorator",
       "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.decorator.ts variable.other.readwrite.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.decorator.ts punctuation.decorator.ts",
-      "foreground": "var(polar_decorator)"
+      "foreground": "var(nord_decorator)"
     },
     {
       "name": "[TypeScript] Interpolated String Keyword",
       "scope": "source.ts punctuation.definition.template-expression.begin.ts, source.ts punctuation.definition.template-expression.end.ts",
-      "foreground": "var(polar_meta_preprocessor)"
+      "foreground": "var(nord_meta_preprocessor)"
     },
     {
       "name": "[TypeScript] Interpolated String",
       "scope": "source.ts string.template.ts",
-      "foreground": "var(polar_string)"
+      "foreground": "var(nord_string)"
     },
     {
       "name": "[TypeScript] Static Support Function",
@@ -841,44 +844,44 @@
     {
       "name": "[TypeScript] Constant",
       "scope": "source.ts variable.other.constant.property.ts, source.ts variable.other.enummember.ts, source.ts variable.other.constant.ts",
-      "foreground": "var(polar_variable)",
+      "foreground": "var(nord_variable)",
       "font_style": "bold"
     },
     {
       "name": "[TypeScript] JSDoc Tag",
       "scope": "source.ts comment.block.documentation.ts storage.type.class.jsdoc",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[XML] Namespace",
       "scope": "text.xml entity.name.tag.namespace",
-      "foreground": "var(polar7)"
+      "foreground": "var(nord7)"
     },
     {
       "name": "[XML] Doctype/Preprocessor",
       "scope": "text.xml meta.tag.sgml.doctype.xml, text.xml meta.tag.preprocessor entity.name.tag, text.xml meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml, text.xml meta.tag.preprocessor.xml punctuation.definition.tag.end.xml, text.xml meta.tag.sgml.doctype.xml punctuation.definition.tag.begin.xml, text.xml meta.tag.sgml.doctype.xml punctuation.definition.tag.end.xml",
-      "foreground": "var(polar_meta_preprocessor)"
+      "foreground": "var(nord_meta_preprocessor)"
     },
     {
       "name": "[XML] CDATA Tag",
       "scope": "text.xml string.unquoted.cdata.xml punctuation.definition.string.begin.xml, text.xml string.unquoted.cdata.xml punctuation.definition.string.end.xml",
-      "foreground": "var(polar12)",
+      "foreground": "var(nord12)",
       "font_style": "italic"
     },
     {
       "name": "[YAML] Entity Name Tag",
       "scope": "source.yaml entity.name.tag",
-      "foreground": "var(polar9)"
+      "foreground": "var(nord9)"
     },
     {
       "name": "[SublimeLinter] Warning",
       "scope": "sublimelinter.mark.warning",
-      "foreground": "var(polar_warning)"
+      "foreground": "var(nord_warning)"
     },
     {
       "name": "[SublimeLinter] Error",
       "scope": "sublimelinter.mark.error",
-      "foreground": "var(polar_error)"
+      "foreground": "var(nord_error)"
     },
     {
       "name": "[SublimeLinter] Gutter Mark",
@@ -888,52 +891,52 @@
     {
       "name": "[GitGutter] Ignored",
       "scope": "markup.ignored.git_gutter",
-      "foreground": "var(polar_comment)"
+      "foreground": "var(nord_comment)"
     },
     {
       "name": "[GitGutter] Untracked",
       "scope": "markup.untracked.git_gutter",
-      "foreground": "var(polar8)"
+      "foreground": "var(nord8)"
     },
     {
       "name": "[GitGutter] Inserted",
       "scope": "markup.inserted.git_gutter",
-      "foreground": "var(polar14)"
+      "foreground": "var(nord14)"
     },
     {
       "name": "[GitGutter] Changed",
       "scope": "markup.changed.git_gutter",
-      "foreground": "var(polar_warning)"
+      "foreground": "var(nord_warning)"
     },
     {
       "name": "[GitGutter] Deleted",
       "scope": "markup.deleted.git_gutter",
-      "foreground": "var(polar_error)"
+      "foreground": "var(nord_error)"
     },
     {
       "name": "[Babel] Decorator",
       "scope": "source.js tag.decorator.js entity.name.tag.js, source.js tag.decorator.js punctuation.definition.tag.js",
-      "foreground": "var(polar_decorator)"
+      "foreground": "var(nord_decorator)"
     },
     {
       "name": "[Babel] String (Interpolated/Template Expression)",
       "scope": "source.js string.quoted.js, source.js string.quoted.jsx, source.js meta.class.js meta.class.property.js string.interpolated.js, source.js string.interpolated.js, source.js string.template.js",
-      "foreground": "var(polar_string)"
+      "foreground": "var(nord_string)"
     },
     {
       "name": "[Babel] Constant",
       "scope": "source.js variable.other.constant.js",
-      "foreground": "var(polar_variable)"
+      "foreground": "var(nord_variable)"
     },
     {
       "name": "[Babel] Object Key/Variable",
       "scope": "source.js constant.other.object.key.js string.unquoted.label.js, source.js variable.other.readwrite.js",
-      "foreground": "var(polar_variable)"
+      "foreground": "var(nord_variable)"
     },
     {
       "name": "[Babel] Arrow Function",
       "scope": "source.js meta.class.js meta.class.property.js variable.other.property.js",
-      "foreground": "var(polar_function)"
+      "foreground": "var(nord_function)"
     },
     {
       "name": "[Babel] Static Variable",
@@ -943,27 +946,27 @@
     {
       "name": "[Babel] React JSX Tag",
       "scope": "source.js entity.name.tag.jsx",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Babel] Class",
       "scope": "source.js variable.other.class.js",
-      "foreground": "var(polar_type)"
+      "foreground": "var(nord_type)"
     },
     {
       "name": "[Babel] String Interpolated/Template Expression Keyword",
       "scope": "source.js string.interpolated.js keyword.other.substitution.begin.js, source.js string.interpolated.js keyword.other.substitution.end.js, source.js punctuation.definition.template-expression.begin.js, source.js punctuation.definition.template-expression.end.js",
-      "foreground": "var(polar_meta_preprocessor)"
+      "foreground": "var(nord_meta_preprocessor)"
     },
     {
       "name": "[Babel] Spread Operator",
       "scope": "source.js keyword.operator.spread.js",
-      "foreground": "var(polar_operator)"
+      "foreground": "var(nord_operator)"
     },
     {
       "name": "[BracketHighlighter] Bracket Default Color",
       "scope": "brackethighlighter.default",
-      "foreground": "var(polar_decorator)"
+      "foreground": "var(nord_decorator)"
     }
   ]
 }
